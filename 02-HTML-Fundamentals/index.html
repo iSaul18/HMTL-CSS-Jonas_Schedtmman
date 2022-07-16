@@ -1,76 +1,102 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>(Demo) The basic languaje</title>
-  <meta charset="fs" content="fs">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>The Basic Language of the web: HTML</title>
+  </head>
 
-  <style>
-    .laura {
-      width: 5rem;
-      max-width: 100%;
-    }
+    <header>
+      <h1>😉 The Code Magazine</h1>
+      
+      <nav>
+        <a href="blog.html">Blog</a>
+        <a href="#!">Contacto</a>
+        <a href="#!">Flexbox</a>
+        <a href="#!">CSS-Grid</a>
+      </nav>
+      
+    </header>
 
-    .pantalla {
-      width: 70rem;
-      max-width: 100%;
-    }
-
-    p:hover,
-    a:hover,
-    h1:hover,
-    h2:hover {
-      background-color: rgb(127, 171, 253);
-    }
-  </style>
-</head>
-
-<body>
-  <header>
-    <h1>The Code Magazine [DEMO]</h1>
-    <nav>
-      <a href="#">Blog</a>
-      <a href="#">Challenge</a>
-      <a href="#">Flexbox</a>
-      <a href="#">CSS Grid</a>
-    </nav>
-  </header>
-  <main>
-    <section>
-      <h2> The Basic languaje of the web: HTML</h2>
-      <div class="laura">
-        <img src="img/laura-jones.jpg" alt="#">
+    <main>
+      <h2>The Basic Language of the web: HTML</h2>
+      
+      <img class="imagen-laura small-image" src="img/laura-jones.jpg" alt="laura-jones">
+      
+      <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+      
+      <img class="imagen-post" src="img/post-img.jpg" alt="post">
+      
+      <p>All modern websites and web applications are built using three fundamental technologies: HTML, CSS and JavaScript.
+        These are the languages of the web.</p>
+      
+      <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
+      
+      <h3>What is HTML?</h3>
+      <p>HTML stands for HyperText Markup Language. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).</p>
+      
+      <p>HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video,
+      etc. Web browsers understand HTML and render HTML code as websites.</p>
+      
+      <p>In HTML, each element is made up of 3 parts:</p>
+      
+      <div>
+        <ol class="contenedor ol-list">
+          <li>The opening tag</li>
+          <li>The closing tag</li>
+          <li>The actual element</li>
+        </ol>
       </div>
-      <p>Posted by <b>Laura Jones</b> on Monday, June 21st 2027</p>
-      <div class="pantalla">
-        <img src="img/post-img.jpg" alt="#">
+      
+      <p>You can learn more at the MDN Web Docs.</p>
+      
+      <h3>Why Should you learn HTML?</h3>
+      <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
+      
+      <div>
+        <ul class="contenedor ul-list">
+          <li>To be able to use the fundamental web dev language</li>
+          <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
+          <li>To build web applications</li>
+          <li>To impress friends</li>
+          <li>To have fun 😃</li>
+        </ul>
       </div>
-      <p>All modern websites and web applications are built using <i>three fundamental</i> technologies: HTML, CSS and
-        Javascript. These are the lenguages of the web</p>
-      <p>In this post, let´s focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
-    </section>
+      
+      <p>Hopefully you learned something new here. See you next time!</p>
+    </main>
 
-    <section>
-      <h2>What is HTML?</h2>
-      <p>HTML stands for HyperText Markup Language. It´s a markup langauge that web developers use to structure and
-        describe the content of a webpage (not a programming language)</p>
+    <aside>
+      <h3>Related Posts</h3>
+      <div>
+        <ul class="related-post contenedor">
 
-      <p>HTML consist of elements that describe different types of content: paragraphs, links, headings, images, video,
-        etc. Web browsers understand HTML and render HTML code as websites</p>
+          <li>
+            <img class="small-image" src="img/related-1.jpg" alt="related-1">
+            <a href="#!">how to be a better electrician</a>
+          </li>
 
-      <p>in HTML, each elements is made up of 3 parts:</p>
-      <ol type="1">
-        <li>The opening tag</li>
-        <li>The closing tag</li>
-        <li>The actual element</li>
-      </ol>
-    </section>
-  </main>
+          <li>
+            <img class="small-image" src="img/related-2.jpg" alt="related-1">
+            <a href="#!">storms in the capital</a>
+          </li>
 
+          <li>
+            <img class="small-image" src="img/related-3.jpg" alt="related-3">
+            <a href="#!">Do you want to be a programmer?</a>
+          </li>
 
-</body>
+        </ul>
+      </div>
+    </aside>
+
+    <footer class="contenedor footer"> Saul Porras &copy;</footer>
+  </body>
 
 </html>

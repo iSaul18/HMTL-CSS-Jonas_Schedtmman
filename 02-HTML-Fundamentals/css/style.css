@@ -1,0 +1,76 @@
+
+/* General */
+html {
+    box-sizing: border-box;
+    font-family: 'Edu SA Beginner', cursive;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.small-image {
+    height: 50px;
+    width: 50px;
+}
+
+.contenedor {
+    max-width: max-content;
+}
+
+/* Estilos */
+.imagen-laura {
+    border-radius: 15px 0px;
+    box-shadow: 2px 0 0 0 rgba(0, 0, 0, 0.171);
+}
+.imagen-post {
+    height: 200px;
+    width: 500px;
+    border-radius: 15px; 
+    box-shadow: 10px 20px 30px black;
+    margin: 10px 0 ;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px 0;
+}
+
+a {
+    color: rgb(20, 100, 120);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgba(59, 46, 240, 0.788);
+}
+
+ul,
+ol {
+    margin: 0 auto 0 auto;
+}
+
+.ul-list {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.related-post {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+footer {
+    background-color: black;
+}
+.footer {
+    margin: 15px 0 0 0;
+    max-width: none;
+    background-color: black;
+    padding: 1px;
+    color: white;
+}
