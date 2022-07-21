@@ -1,0 +1,110 @@
+/*Global */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Estilos Generales */
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+    color: #444;
+    font-family: sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    color: rgb(16, 152, 173);
+}
+
+h1 {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+li {
+    font-size: 2.2rem;
+}
+
+footer p {
+    font-size: 1.6rem;
+}
+
+#author {
+    font-style: italic;
+    font-size: 1.8rem;
+}
+
+#copyright {
+    font-size: 1.6rem;
+}
+
+.main-header {
+    background-color: #f7f7f7;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border-top: .5rem solid rgb(16, 152, 173);
+    border-bottom: .5rem solid rgb(16, 152, 173);
+}
+
+body {
+    /* background-color: orange; */
+}
+
+/* .first-li {
+    font-weight: bold ;
+} */
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(even) {
+    /* color: red; */
+}
+
+
+article p:nth-of-type(1) {
+    background-color: rebeccapurple;
+    color: blue;
+}
+
+aside a {
+    text-decoration: none;
+    color: rgb(48, 156, 219);
+}
