@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+}
+.price {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    color: rgb(177, 174, 174);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgb(26, 23, 23);
+    color: whitesmoke;
+    text-transform: uppercase;
+}
+
+.contenedor-general {
+    border: 5px solid black;
+}
