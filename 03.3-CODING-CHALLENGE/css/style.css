@@ -1,0 +1,111 @@
+body {
+    font-family: sans-serif;
+}
+
+h2 {
+    text-align: center;
+    background-color: rgb(224, 224, 224);
+}
+
+.h2 {
+    position: relative;
+}
+span {
+    display: block;
+    position: absolute;
+    top: -35px;
+    left: -75px;
+    color: #fff;
+    background-color: rgb(252, 155, 9);
+    padding: 5px 10px;
+}
+.price {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+    color: rgb(177, 174, 174);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgb(26, 23, 23);
+    color: whitesmoke;
+    text-transform: uppercase;
+    width: 100%;
+    height: 55px;
+}
+
+body {
+    height: 95vh;
+    width: 95vw;
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-general {
+
+    margin: 0 auto;
+    border: 5px solid black;
+    max-width: 850px;
+}
+
+.contenedor-superior {
+    padding-left: 50px;
+}
+
+.container-color {
+    position: relative;
+    height: 20px;
+    width: 100%;
+}
+
+.color {
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    margin: 0 20px;
+}
+
+.color1 {
+    top: 0;
+    bottom: 0;
+    left: 0px ;
+}
+
+.color2 {
+    background-color: blue;
+    top: 0;
+    bottom: 0;
+    left: 30px ;
+}
+.color3 {
+    background-color: red;
+    top: 0;
+    bottom: 0;
+    left: 60px ;
+}
+.color4 {
+    background-color: yellow;
+    top: 0;
+    bottom: 0;
+    left: 90px ;
+}
+.color5 {
+    background-color: green;
+    top: 0;
+    bottom: 0;
+    left: 120px ;
+}
+.color6 {
+    background-color: brown;
+    top: 0;
+    bottom: 0;
+    left: 150px ;
+}
